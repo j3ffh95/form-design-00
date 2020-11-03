@@ -33,7 +33,17 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 25rem;
-  background: lightblue;
-  padding: 10rem 2rem;
+  width: 20rem;
+  /* background: lightblue; */
+  padding: 5rem 1rem;
+  color: #fff;
+}
+
+.form-box h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 5px solid var(--primary-color);
+  width: fit-content;
+  margin-bottom: 3rem;
+  padding-bottom: 0.2rem;
 }
