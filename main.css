@@ -47,3 +47,24 @@ body {
   margin-bottom: 3rem;
   padding-bottom: 0.2rem;
 }
+
+.box-input {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 2px solid var(--primary-color);
+  padding: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.form-box .box-input i {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.form-box .box-input input {
+  color: #fff;
+  font-size: 1.2rem;
+  background: transparent;
+  border: none;
+  outline: none;
+}
