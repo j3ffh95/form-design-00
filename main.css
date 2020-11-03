@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #6cace4;
+  --clr-secondary: #041e42;
 }
 
 *,
@@ -79,4 +80,10 @@ body {
   border: solid 3px var(--primary-color);
   outline: none;
   cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.form-box .btn:hover {
+  color: var(--clr-secondary);
+  background: var(--primary-color);
 }
