@@ -11,3 +11,19 @@
   margin: 0;
   padding: 0;
 }
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1544374493-16f0db4833a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
