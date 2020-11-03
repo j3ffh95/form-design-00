@@ -68,3 +68,15 @@ body {
   border: none;
   outline: none;
 }
+
+.form-box .btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.3rem 0;
+  background: transparent;
+  color: #fff;
+  font-size: 1.2rem;
+  border: solid 3px var(--primary-color);
+  outline: none;
+  cursor: pointer;
+}
